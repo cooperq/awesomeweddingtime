@@ -1,0 +1,45 @@
+body{
+  /*background: url('/images/handmadepaper.png');*/
+  background: url('http://subtlepatterns.com/patterns/stardust.png');
+  color: #eee;
+  font-size: 18px;
+}
+.container[role=main]{
+}
+
+.jumbotron{
+  /*background: url('http://subtlepatterns.com/patterns/stardust.png');*/
+  background: url('/images/icons/Wd017_01.png');
+  padding-bottom: 0;
+  color: #eee;
+}
+
+.jumbotron #wreath{
+  padding-top: 10px;
+}
+.jumbotron #wreath img{
+  height: 540px;
+}
+
+.jumbotron .name{
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.page-header h1{
+  font-family: 'Parisienne', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+.page-header {
+  border-bottom: none;
+  background: url('/images/footer.png') no-repeat;
+  height: 100px;
+  background-position:center 50px;
+}
+
+.jumbotron .info{
+  font-size: 20px;
+  font-family: 'Oleo Script', cursive;
+}
