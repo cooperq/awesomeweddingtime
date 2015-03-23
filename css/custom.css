@@ -7,42 +7,37 @@ body{
 .container[role=main]{
 }
 nav{
-  font-family: 'Oleo Script', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-size: 26px;
+  font-weight: 700;
 }
-
 .jumbotron{
   /*background: url('http://subtlepatterns.com/patterns/stardust.png');*/
   background: url('/images/dark_wall.png');
   padding-bottom: 0;
   color: #eee;
 }
-
 .jumbotron #wreath{
   padding-top: 10px;
 }
 .jumbotron #wreath img{
   height: 540px;
 }
-
 .jumbotron .name{
   font-family: 'Cabin Sketch', cursive;
 }
-
 .page-header h1{
   font-family: 'Parisienne', cursive;
   text-align: center;
   font-size: 50px;
   text-shadow: 1px 4px 4px black;
 }
-
-
 .page-header {
   border-bottom: none;
   background: url('/images/footer.png') no-repeat;
   height: 100px;
   background-position:center 50px;
 }
-
 .jumbotron .info{
   font-size: 26px;
   font-family: 'Oleo Script', cursive;
@@ -50,40 +45,18 @@ nav{
 .spacer{
   height: 20px;
 }
-
 #about{
 }
-
-/*#ceremony{
-  background: url('/images/sequoia-bg.png');
-  background-size: 100% 100%;
-  padding-bottom: 25px;
-}
-#ceremony .container{
-  background: rgba(0,0,0,0.7);
-}*/
-
 .jumbotron{
   margin-bottom: 0;
 }
-/*#activities{
-  background: url('/images/sequoia-bg2.png');
-  background-size: 100% auto;
-  padding-bottom: 25px;
-}*/
-  .parallax-window{
-    background:transparent;
-    height: 300px;
-  }
-
-  .burlap{
-  background: url('/images/burlap.jpg');
+.parallax-window{
+  background:transparent;
   height: 300px;
 }
-
 .navbar-inverse{
   background: linear-gradient(#225050, #008080);
-  box-shadow: 2px 2px 4px #111;
+  box-shadow: 2px 2px 4px #222;
 }
 .navbar-inverse .navbar-nav>li>a{
   color: #fff;
