@@ -66,6 +66,12 @@ h2{
 .navbar-inverse .navbar-nav>li>a{
   color: #fff;
 }
-.gallery-img, .gallery-img img{
-  height: 200px;
+.gallery-img{
+  height: 300px;
+}
+.gallery-img.pull-left {
+  padding-right: 10px;
+}
+.gallery-img.pull-right{
+  padding-left: 10px;
 }
