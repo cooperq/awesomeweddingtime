@@ -38,6 +38,11 @@ nav{
   height: 100px;
   background-position:center 50px;
 }
+h2{
+  font-family: 'Parisienne', cursive;
+  text-shadow: 1px 4px 4px black;
+  font-size: 40px;
+}
 .jumbotron .info{
   font-size: 26px;
   font-family: 'Oleo Script', cursive;
@@ -60,4 +65,7 @@ nav{
 }
 .navbar-inverse .navbar-nav>li>a{
   color: #fff;
+}
+.gallery-img, .gallery-img img{
+  height: 200px;
 }
