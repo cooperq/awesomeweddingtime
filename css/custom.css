@@ -1,6 +1,6 @@
 body{
   /*background: url('/images/handmadepaper.png');*/
-  background: url('http://subtlepatterns.com/patterns/stardust.png');
+  background: url('/images/stardust.png');
   color: #eee;
   font-size: 18px;
 }
@@ -10,6 +10,9 @@ nav{
   font-family: 'Dancing Script', cursive;
   font-size: 26px;
   font-weight: 700;
+}
+nav a{
+  border-bottom: none;
 }
 .jumbotron{
   /*background: url('http://subtlepatterns.com/patterns/stardust.png');*/
@@ -41,6 +44,20 @@ nav{
 h2,h3{
   font-family: 'Dancing Script', cursive;
 }
+.more{
+  font-size: 20px;
+  font-family: 'Seaweed Script', cursive;
+}
+.more::before{
+  content: "» ";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+}
+.more::after{
+  content: " «";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+}
 h2{
   text-shadow: 1px 4px 4px black;
   font-size: 40px;
@@ -71,13 +88,25 @@ h2{
 .gallery-img{
   max-width: 100%;
   max-height: 300px;
+  border: 6px solid #f0f0fc;
 }
 .gallery-img.pull-left {
-  padding-right: 10px;
+  margin-right: 10px;
 }
 .gallery-img.pull-right{
-  padding-left: 10px;
+  margin-left: 10px;
 }
 .container-full-width{
   padding-bottom: 25px;
+}
+
+a{
+  border-bottom: 4px solid #008080;
+  color: #eee;
+  padding: 0 2px;
+}
+a:hover{
+  color:#000;
+  background: #008080;
+  text-decoration: none;
 }
