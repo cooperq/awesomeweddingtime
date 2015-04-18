@@ -44,6 +44,8 @@
       </div>
     </nav>
 
+    <div id='cover'></div>
+
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron" id="home">
       <div class='container'>
@@ -361,6 +363,10 @@
         filter: '',
         easing: 'swing',
       }); 
+
+      $(window).load(function(){
+        $('#cover').fadeOut(1000);
+      });
     </script>
   </body>
 </html>
